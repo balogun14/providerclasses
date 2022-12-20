@@ -10,9 +10,13 @@ class ScreenPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      color: Color.fromARGB(31, 110, 11, 11),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Provider example App'),
+          title: Center(
+              child: const Text(
+            'Provider example App',
+          )),
         ),
         body: Center(
           child: Column(
